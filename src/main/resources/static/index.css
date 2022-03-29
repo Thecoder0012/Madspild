@@ -30,7 +30,10 @@ body {
     margin-top: 20px;
     font-size: 1.0rem;
 }
-#nav-bar a:nth-child(1){
+#nav-bar a.home-active,
+#nav-bar a.madspild-active,
+#nav-bar a.om-os-active
+{
     background-color: white;
     border-radius: 5px;
     color: #004F54;
