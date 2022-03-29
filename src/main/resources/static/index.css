@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    background-color: powderblue;
+    box-shadow: 0px 0px 7px rgba(49, 49, 49, 0.1);
+    border-radius: 20px;
+    height: 100%;
+}
+
+#nav-bar {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    width: 50%;
+    height: 30%;
+    left: 25%;
+    background-color: #004F54;
+    border-radius: 10px;
+}
+
+#nav-bar a {
+    font-family: Helvetica Neue;
+    font-weight: 700;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 20px;
+    font-size: 1.0rem;
+}
+#nav-bar a:nth-child(1){
+    background-color: white;
+    border-radius: 5px;
+    color: #004F54;
+}
+#nav-bar a:hover{
+    background-color: white;
+    border-radius: 5px;
+    color: #004F54;
+}
+
+
