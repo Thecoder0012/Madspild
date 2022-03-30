@@ -1,4 +1,10 @@
 
+/*
+
+
+ */
+
+
 body {
     margin: 0px;
     background-color: powderblue;
@@ -14,7 +20,7 @@ body {
     margin-bottom: 50px;
     margin-top: 0px;
     width: 50%;
-    height: 500px;
+    height: 30%;
     left: 25%;
     background-color: #004F54;
     border-radius: 10px;
