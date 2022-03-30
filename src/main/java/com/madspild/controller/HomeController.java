@@ -9,6 +9,6 @@ public class HomeController {
 
     @GetMapping("/startside")
     public String getIndex(){
-        return "index";
+        return "home/index";
     }
 }

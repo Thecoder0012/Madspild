@@ -9,6 +9,6 @@ public class InfoController {
 
     @GetMapping("/om-os")
     public String getOmOs(){
-        return "aboutus";
+        return "home/aboutus";
     }
 }

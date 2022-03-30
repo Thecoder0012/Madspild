@@ -8,6 +8,6 @@ public class MadspildController {
 
     @GetMapping("/madspild")
     public String getMadspild(){
-        return "madspild";
+        return "home/madspild";
     }
 }

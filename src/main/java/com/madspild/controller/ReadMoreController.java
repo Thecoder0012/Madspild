@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class ReadMoreController {
     @GetMapping("/læs-mere")
     public String getLæsMere(){
-        return "readmore";
+        return "home/readmore";
     }
 }
