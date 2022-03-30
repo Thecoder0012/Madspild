@@ -33,7 +33,8 @@ body {
 #nav-bar a.home-active,
 #nav-bar a.madspild-active,
 #nav-bar a.about-us-active,
-#nav-bar a.help-active
+#nav-bar a.help-active,
+#nav-bar a.read-more-active
 {
     background-color: white;
     border-radius: 5px;
