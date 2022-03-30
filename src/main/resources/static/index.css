@@ -32,7 +32,8 @@ body {
 }
 #nav-bar a.home-active,
 #nav-bar a.madspild-active,
-#nav-bar a.om-os-active
+#nav-bar a.om-os-active,
+#nav-bar a.help-active
 {
     background-color: white;
     border-radius: 5px;
