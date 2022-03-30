@@ -1,3 +1,4 @@
+
 body {
     margin: 0px;
     background-color: powderblue;
@@ -44,6 +45,24 @@ body {
     background-color: white;
     border-radius: 5px;
     color: #004F54;
+}
+
+#venstre-hjørne-billede{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 10%;
+    height: 15%;
+    background-image: image("templates/Images/MY-logo.jpg");
+}
+
+#første-billede {
+    position: absolute;
+    top: 15em;
+    width: 100%;
+    height: 50%;
+    background-image: url("https://csr.dk/sites/default/files/styles/2400px/public/116433646_l.jpg?itok=Di7Lu0YQ");
+
 }
 
 
