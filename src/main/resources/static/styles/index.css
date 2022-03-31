@@ -1,8 +1,10 @@
-body{
+* {
     margin: 0;
     padding: 0;
+    border: 0;
+    font-size: 100%;
+    list-style: none;
     font-family: Open Sans,sans-serif;
-    width: 100%;
 }
 
 li{
@@ -67,8 +69,8 @@ a{
 }
 
 .nav-bar #home-active,
+.nav-bar #hvad-er-madspild-active,
 .nav-bar #madspild-active,
-.nav-bar .dropdown-list #what-is-madspild-active
 .nav-bar #about-us-active,
 .nav-bar #help-active,
 .nav-bar #read-more-active {
