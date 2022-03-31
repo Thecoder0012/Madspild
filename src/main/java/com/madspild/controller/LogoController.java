@@ -8,6 +8,6 @@ public class LogoController {
 
     @GetMapping("/logo")
     public String getLogo(){
-        return"logo";
+        return"home/logo";
     }
 }

@@ -77,16 +77,18 @@ a{
 
 
 #startside-billede-logo img{
-    position: relative;
-    left: 95%;
-    width: 100px;
-    height: 150px;
+    position: absolute;
+    right: 55px;
+    top: 1.5px;
+    width: 65px;
+    height: 65px;
+    border-radius: 30px;
 }
 
 #startside-billede img {
     position: relative;
     height: 50%;
-    top: 150px;
+    top: 250px;
     width: 100%;
 }
 #startside-billede .billede-tekst {
