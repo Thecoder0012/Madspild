@@ -1,0 +1,19 @@
+body{
+}
+
+#container{
+    background: #c7dee4;
+    width: 100%;
+    height: 400px;
+    color:  #05545b;
+}
+h1{
+    font-family: Lora,serif;
+    font-weight: 400;
+    font-size: 3em;
+    line-height: 3.0rem;
+}
+p{
+    font-family: Open Sans,sans-serif;
+    font-weight: 600;
+}
