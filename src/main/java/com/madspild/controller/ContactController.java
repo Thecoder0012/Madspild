@@ -4,9 +4,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class ReadMoreController {
-    @GetMapping("/læs-mere")
+public class ContactController {
+    @GetMapping("/kontakt")
     public String getLæsMere(){
-        return "home/readmore";
+        return "home/contact";
     }
 }

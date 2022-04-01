@@ -1,4 +1,4 @@
-@media only screen and (max-width: 2500px) {
+@media only screen and (max-width: 1900px) {
     * {
         margin: 0;
         padding: 0;
@@ -75,7 +75,7 @@ a{
 .nav-bar #madspild-active,
 .nav-bar #about-us-active,
 .nav-bar #help-active,
-.nav-bar #read-more-active {
+.nav-bar #contact-active {
     background: #022a32;
     border-radius: 5px;
     color: white;
