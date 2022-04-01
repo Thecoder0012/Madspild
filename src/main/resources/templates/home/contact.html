@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Læs mere</title>
     <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/contact.css">
+
 
 </head>
 <body>
@@ -23,9 +25,31 @@
             <a class="nav-heading" id="contact-active"  href="kontakt">Kontakt</a>
             <a class="nav-heading" href="hjælp">Hjælp</a>
 
+
+
         </ul>
     </nav>
 </header>
-<script src="/script/contact.js"></script>
+
+<div class="contact-container">
+    <div class="contact-information">
+        <div><i class="fas fa-map-marker-alt"></i>Copenhagen, Denmark</div>
+        <div><i class="fas fa-envelope"></i>kontakt@stopmadspild.dk</div>
+        <div><i class="fas fa-phone"></i>+33445566</div>
+        <div><i class="fas fa-clock"></i>Mandag - Fredag 8:00 to 17:00</div>
+
+
+
+    </div>
+    <div class="contact-form">
+        <h2 style="margin-left: 1px">Contact</h2>
+        <form name="contact" action= method="post">
+            <input type="text" name="Name" class="text-box" placeholder="Indtast venligst dit navn">
+            <input type="email" name="Email" class="text-box" placeholder="Indtast venligst din email">
+            <textarea name="message" rows="5" placeholder="Indtast venligst din besked"></textarea>
+        </form>
+    </div>
+</div>
+
 </body>
 </html>
