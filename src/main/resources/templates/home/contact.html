@@ -30,7 +30,7 @@
         </ul>
     </nav>
 </header>
-
+<!--
 <div class="contact-container">
     <div class="contact-information">
         <div><i class="fas fa-map-marker-alt"></i>Copenhagen, Denmark</div>
@@ -40,15 +40,30 @@
 
 
 
-    </div>
+    </div> -->
     <div class="contact-form">
-        <h2 style="margin-left: 1px">Contact</h2>
-        <form name="contact" action= method="post">
+        <h2 id="contactH" style="margin-left: 1px">Contact</h2>
+        <form name="contact" action= method="post" id="contact-form">
             <input type="text" name="Name" class="text-box" placeholder="Indtast venligst dit navn">
+            <br>
             <input type="email" name="Email" class="text-box" placeholder="Indtast venligst din email">
-            <textarea name="message" rows="5" placeholder="Indtast venligst din besked"></textarea>
+            <br>
+            <textarea name="message" rows="5" placeholder="Indtast venligst din besked" id="text-enter-field"></textarea>
+            <br>
+            <button type="submit" id="button-send">Send</button>
         </form>
     </div>
+    <hr>
+    <div class="footer-test">
+        <h4 class="h-in-footer">Stop-Mad-Spild A/S</h4>
+        <p class="contact-static">Vestergade 33</p>
+        <p class="contact-static">1250 København K</p>
+        <p class="contact-static">tlf.: 33445566</p>
+        <p class="contact-static">E-mail: kontakt@stopmadspild.dk</p>
+
+
+    </div>
+<hr>
 </div>
 
 </body>
