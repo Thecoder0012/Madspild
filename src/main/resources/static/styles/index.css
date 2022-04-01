@@ -1,10 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    list-style: none;
-    font-family: Open Sans,sans-serif;
+@media only screen and (max-width: 2500px) {
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        list-style: none;
+        font-family: Open Sans, sans-serif;
+    }
 }
 
 li{
@@ -92,8 +94,6 @@ a{
 #startside-billede img {
     position: relative;
     height: 65%;
-    left: 24em;
-    top: 21em;
     width: 65%;
 }
 
@@ -102,10 +102,6 @@ a{
     font-family: Lora,system-ui;
     font-size: 100px;
     font-weight: 500;
-    left: 20%;
-    position: absolute;
-    top: 100px;
-    text-align: center;
 }
 
 #tekst-under-velkomst a{
@@ -113,10 +109,19 @@ a{
     font-family: Lora,serif;
     font-size: 33px;
     font-weight: 500;
-    line-height: 50px;
-    position: absolute;
-    top: 10em;
-    left: 25%;
     text-align: center;
 }
 
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flex-container ,
+#startside-billede{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
