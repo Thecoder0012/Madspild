@@ -78,8 +78,10 @@ a {
 }
 
 .nav-bar #home-active,
-.nav-bar #hvad-er-madspild-active,
 .nav-bar #madspild-active,
+.nav-bar #hvad-er-madspild-active,
+.nav-bar #statistics-active,
+.nav-bar #stop-madspild-active,
 .nav-bar #about-us-active,
 .nav-bar #help-active,
 .nav-bar #contact-active {

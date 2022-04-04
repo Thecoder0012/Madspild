@@ -17,6 +17,16 @@ public class HomeController {
         return "home/what_is_madspild";
     }
 
+    @RequestMapping(path = "/statistik",method = RequestMethod.GET)
+    public String getStatistics(){
+        return "home/statistics";
+    }
+
+    @RequestMapping(path = "/stop-madspild",method = RequestMethod.GET)
+    public String getStopMadspild(){
+        return "home/stop_madspild";
+    }
+
     @RequestMapping(path = "/om-os", method = RequestMethod.GET)
     public String getAboutUs() {
         return "home/aboutus";
