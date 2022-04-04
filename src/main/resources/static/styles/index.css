@@ -88,14 +88,14 @@ a {
     color: white;
 }
 
-/* a*/
 
 #startside-billede-logo img {
-    position: absolute;
-    right: 55px;
-    top: 1px;
-    width: 65px;
-    height: 65px;
+    display: block;
+    position: relative;
+    margin-bottom: 1em;
+    margin-left: 67em;
+    width: 144px;
+    height: 144px;
     border-radius: 30px;
 }
 
@@ -143,4 +143,14 @@ a {
     margin: auto;
     align-items: center;
     justify-content: center;
+}
+
+.footerAllExceptContact{
+    font-family: Open Sans, sans-serif;
+    font-weight: 200;
+    line-height: 0rem;
+    padding: 8px 0px;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 1% 0 1% 0;
 }
