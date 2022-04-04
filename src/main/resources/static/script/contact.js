@@ -8,7 +8,7 @@ document.querySelector("button").addEventListener("click", function () {
 
     if (name === "" && email === "" && message === "") {
         alert("Udfyld venligst felterne!");
-    } else if (name !== "" && email !== "" && message !== "") {
+    } else if (name !== "" && email.includes("@gmail.com") && message !== "") {
         alert("Din besked er sendt til os! Vi vender tilbage hurtigst muligt!")
     } else if (name === "" && email === "" && message !== "") {
         alert("Du mangler at indtaste dit navn og din mail")
