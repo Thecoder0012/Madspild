@@ -16,6 +16,7 @@ public class HomeController {
     public String getMadspild() {
         return "home/what_is_madspild";
     }
+
     @RequestMapping(path = "/statistik",method = RequestMethod.GET)
     public String getStatistics(){
         return "home/statistics";
