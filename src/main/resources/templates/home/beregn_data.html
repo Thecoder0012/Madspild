@@ -12,6 +12,10 @@
 <span th:text="${MadspildBeregner.product}"/>
 <span th:text="${MadspildBeregner.productPrice}"/>
 <span th:text="${MadspildBeregner.productLeftOvers}"/>
+<p>
+    <span th:text="${(MadspildBeregner.productPrice*MadspildBeregner.productLeftOvers)/100}"/>
+
+</p>
 
 
 </body>

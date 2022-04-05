@@ -56,7 +56,7 @@ public class HomeController {
         return "home/beregn_madspild";
     }
 
-    @PostMapping("/beregnData")
+    @RequestMapping(path = "/beregn-data",method = RequestMethod.POST)
     public String personData(@ModelAttribute Beregn beregn, Model model){
         model.addAttribute("MadspildBeregner", beregn);
         return "home/beregn_data";
