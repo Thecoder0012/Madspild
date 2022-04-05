@@ -1,6 +1,10 @@
 package com.madspild.controller;
 
+import com.madspild.Model.Beregn;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -46,4 +50,16 @@ public class HomeController {
     public String getLogo() {
         return "home/logo";
     }
+
+    @RequestMapping(path = "/beregn-madspild", method = RequestMethod.GET)
+    public String getBeregnMadspild() {
+        return "home/beregn_madspild";
+    }
+
+    @PostMapping("/beregnData")
+    public String personData(@ModelAttribute Beregn beregn, Model model){
+        model.addAttribute("MadspildBeregner", beregn);
+        return "home/beregn_data";
+    }
 }
+
