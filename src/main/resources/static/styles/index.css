@@ -84,7 +84,8 @@ a {
 .nav-bar #stop-madspild-active,
 .nav-bar #about-us-active,
 .nav-bar #help-active,
-.nav-bar #contact-active {
+.nav-bar #contact-active
+.nav-bar #beregn-madspil-active{
     background: #022a32;
     border-radius: 5px;
     color: white;
