@@ -6,14 +6,16 @@ public class Beregn {
     private String companyName;
     private String product;
     private int productPrice;
+    private double productLeftOvers;
 
-    public Beregn(String firstName, String lastName, String companyName, String product, int productPrice){
+    public Beregn(String firstName, String lastName, String companyName, String product, int productPrice, double productLeftOvers){
         this.firstName = firstName;
         this.lastName = lastName;
         this.companyName = companyName;
         this.product = product;
         this.productPrice = productPrice;
     }
+
 
     public String getFirstName() {
         return firstName;
@@ -53,5 +55,13 @@ public class Beregn {
 
     public void setProductPrice(int productPrice) {
         this.productPrice = productPrice;
+    }
+
+    public double getProductLeftOvers() {
+        return productLeftOvers;
+    }
+
+    public void setProductLeftOvers(double productLeftOvers) {
+        this.productLeftOvers = productLeftOvers;
     }
 }
