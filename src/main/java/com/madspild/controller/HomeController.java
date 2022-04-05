@@ -1,10 +1,9 @@
 package com.madspild.controller;
 
-import com.madspild.Model.Beregn;
+import com.madspild.Model.Firma;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -51,14 +50,14 @@ public class HomeController {
         return "home/logo";
     }
 
-    @RequestMapping(path = "/beregn-madspild", method = RequestMethod.GET)
+    @RequestMapping(path = "/beregn-firma-madspild", method = RequestMethod.GET)
     public String getBeregnMadspild() {
         return "home/beregn_madspild";
     }
 
-    @RequestMapping(path = "/beregn-data",method = RequestMethod.POST)
-    public String personData(@ModelAttribute Beregn beregn, Model model){
-        model.addAttribute("MadspildBeregner", beregn);
+    @RequestMapping(path = "/madspild-data",method = RequestMethod.POST)
+    public String personData(@ModelAttribute Firma firma, Model model){
+        model.addAttribute("firmaData", firma);
         return "home/beregn_data";
     }
 }

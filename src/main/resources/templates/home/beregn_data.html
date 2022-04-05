@@ -3,20 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Beregn Data</title>
+    <link rel="stylesheet" href="/styles/beregn-madspild.css">
+
 </head>
 <body>
 
-<span th:text="${MadspildBeregner.firstName}"/>
-<span th:text="${MadspildBeregner.lastName}"/>
-<span th:text="${MadspildBeregner.companyName}"/>
-<span th:text="${MadspildBeregner.product}"/>
-<span th:text="${MadspildBeregner.productPrice}"/>
-<span th:text="${MadspildBeregner.productLeftOvers}"/>
-<p>
-    <span th:text="${(MadspildBeregner.productPrice*MadspildBeregner.productLeftOvers)/100}"/>
+<table>
+<h1>
+    Se hvor meget du kan spare!
+</h1>
+    <thead>
+    <tr>
+        <th>Navn</th>
+        <th>Efternavn</th>
+        <th>Firma navn</th>
+        <th>Vare</th>
+        <th>Varepris</th>
+        <th>Madspild i %</th>
+        <th>Besparelse i kr</th>
 
-</p>
 
+    </tr>
+
+    </thead>
+
+    <body>
+    <tr>
+       <td th:text="${firmaData.firstName}"></td>
+        <td th:text="${firmaData.lastName}"></td>
+        <td th:text="${firmaData.companyName}"></td>
+        <td th:text="${firmaData.product}"></td>
+        <td th:text="${firmaData.productPrice}"></td>
+        <td th:text="${firmaData.productLeftOvers}"></td>
+        <td th:text="${(firmaData.productPrice*firmaData.productLeftOvers)/100}"></td>
+
+    </tr>
+    </body>
+
+</table>
 
 </body>
 </html>
+

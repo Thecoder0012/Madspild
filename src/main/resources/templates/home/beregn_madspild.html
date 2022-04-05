@@ -17,7 +17,7 @@
                 <li><a class="dropdown-item" href="hvad-er-madspild">Hvad er madspild?</a></li>
                 <li><a class="dropdown-item" href="statistik">Statistik</a></li>
                 <li><a class="dropdown-item" href="stop-madspild">Stop madspild</a></li>
-                <li><a class="dropdown-item" id="beregn-madspil-active" href="beregn-madspild">Beregn din madspild</a></li>
+                <li><a class="dropdown-item" id="firma-madspil-active" href="beregn-firma-madspild">Beregn din madspild</a></li>
             </ul>
         </li>
         <li><a class="nav-heading" href="om-os">Om os</a></li>
@@ -27,7 +27,7 @@
     </ul>
 </nav>
 
-<div id="headerBeregnMadspild">
+<div id="header-beregn-madspild">
     <h1>
         Indtast efterspurgte oplysninger i de forskellige bokse
         <br>
@@ -37,14 +37,14 @@
 </div>
 
 <div id="wrapper">
-        <form action="/beregn-data" method="post">
+        <form  action="/madspild-data" method="post">
             <input type="text" name="firstName" placeholder="Navn">
             <input type="text" name="lastName" placeholder="Efternavn">
-            <input type="text" name="companyName" placeholder="Firma Navn">
-            <input type="text" name="product" placeholder="Indtast dit produkt">
-            <input type="text" name="productPrice" placeholder="Indtast prisen">
-            <input type="text" name="productLeftOvers" placeholder="Hvor mange % blev smidt ud">
-            <input type="submit" value="Send data">
+            <input type="text" name="companyName" placeholder="Firma navn">
+            <input type="text" name="product" placeholder="Indtast din vare">
+            <input type="text" name="productPrice" placeholder="Indtast pris på varen">
+            <input type="text" name="productLeftOvers" placeholder="Angiv vare smidt ud i %">
+            <input type="submit" value="Beregn besparelse">
         </form>
     </div>
 

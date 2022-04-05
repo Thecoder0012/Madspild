@@ -5,23 +5,45 @@ body {
     color: #05545b;
 }
 
-#headerBeregnMadspild{
+#header-beregn-madspild {
     text-align: center;
     font-size: 29px;
     font-family: ui-sans-serif;
     line-height: 3em;
 }
 
-#wrapper{
+#wrapper {
     font-size: 27px;
     line-height: 2.5;
-    margin: auto;
+    margin: 0% 0 5% 35%;
+    border-radius: 25px;
     height: 17em;
     width: 15em;
-    border: 4px solid black;
+    background: #05545b;
     padding: 35px;
 }
 
+#wrapper input {
+    width: 100%;
+    border-radius: 10px;
+    padding: 2px 2px;
+}
+
+table {
+    width: 85%;
+    margin-top: 5%;
+}
+
+th, td {
+    border: 1px solid black;
+    height: 50px;
+    padding: 1px 25px;
+}
+
+th {
+    background-color: #004F54;
+    color: white;
+}
 
 /*
 #left{
