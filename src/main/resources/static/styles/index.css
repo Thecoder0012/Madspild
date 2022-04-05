@@ -4,12 +4,11 @@
     padding: 0;
     border: 0;
     font-size: 100%;
-    list-style: none;
     font-family: Open Sans, sans-serif;
 }
 
 
-li {
+header li {
     list-style: none;
 }
 
