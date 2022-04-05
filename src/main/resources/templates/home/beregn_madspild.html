@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beregn madspild</title>
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/beregn-madspild.css">
+    <link rel="icon" type="image/ico" href="/icons/favi.png">
+</head>
+<body>
+
+<nav>
+    <ul class="nav-bar">
+        <li><a class="nav-heading" href="startside">Hjem</a></li>
+        <li class="dropdown"><a class="nav-heading" id="madspild-active" >Madspild</a>
+            <ul class="dropdown-list">
+                <li><a class="dropdown-item" href="hvad-er-madspild">Hvad er madspild?</a></li>
+                <li><a class="dropdown-item" href="statistik">Statistik</a></li>
+                <li><a class="dropdown-item" href="stop-madspild">Stop madspild</a></li>
+                <li><a class="dropdown-item" id="beregn-madspil-active" href="beregn-madspild">Beregn din madspild</a></li>
+            </ul>
+        </li>
+        <li><a class="nav-heading" href="om-os">Om os</a></li>
+        <a class="nav-heading" href="kontakt">Kontakt</a>
+        <li><a class="nav-heading" href="hjælp">Hjælp</a></li>
+
+    </ul>
+</nav>
+
+<div id="headerBeregnMadspild">
+    <h1>
+        Indtast efterspurgte oplysninger i de forskellige bokse
+        <br>
+        Du kan nu få beregnet hvor mange penge du kan spare på dit madspild
+    </h1>
+
+</div>
+
+<div id="wrapper">
+        <form action="/beregnData" method="post">
+            <input type="text" name="firstName" placeholder="Navn">
+            <input type="text" name="lastName" placeholder="Efternavn">
+            <input type="text" name="companyName" placeholder="Firma Navn">
+            <input type="text" name="product" placeholder="Indtast dit produkt">
+            <input type="text" name="productPrice" placeholder="Indtast prisen produktet">
+            <input type="submit" value="Send data">
+        </form>
+    </div>
+
+<footer>
+    <div class="footer-container">
+        Copyright @2022 | Designed by Madspild
+    </div>
+    <div id="udviklere-logo">
+        <a href="logo">
+            <img src="/images/MY-logo.jpg" alt="Side logo">
+        </a>
+    </div>
+</footer>
+
+</body>
+</html>
