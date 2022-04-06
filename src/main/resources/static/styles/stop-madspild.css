@@ -4,25 +4,34 @@ body {
 
 
 #stop-madspild-tekst-container {
-    width: 60%;
+    width: 45%;
     height: 60%;
-    margin: 5% 0 0 2%;
+    margin: 3% 0 3% 2%;
 }
 
-#stop-madspild-tekst-container ol {
-    background-color: bisque;
-    padding: 12px 30px;
-    font-family: Helvetica Neue;
+#to-do-list-container ol {
+    background-color: #05545b;
+    color: burlywood;
+    font-size: 1.1em;
+    padding: 12px 35px;
+    font-family: Lora, serif;
     font-weight: 600;
     line-height: 2;
 
 }
+#to-do-list-container {
+    width: 45%;
+    height: 69%;
+    position: relative;
+    left: 48em;
+    bottom: 35em;
+}
 
 #stop-madspild-tekst-container h2 {
-    background-color: wheat;
-    color: darkgreen;
-    font-weight: 700;
-    font-family: Helvetica Neue;
+    background-color: #05545b;
+    color: burlywood;
+    font-weight: 1200;
+    font-family: Lora, serif;
     font-size: 2em;
     line-height: 1.4;
     padding: 10px 20px;
@@ -30,9 +39,10 @@ body {
 
 #stop-madspild-tekst-container p {
     font-weight: 700;
-    font-family: Helvetica Neue;
+    font-family: Lora, serif;
     font-size: 1.5em;
     line-height: 1.9;
     padding: 5px 15px;
-    background-color: coral;
+    background-color: #05545b;
+    color: burlywood;
 }
