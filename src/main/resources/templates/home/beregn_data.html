@@ -9,7 +9,7 @@
 
 <table>
 
-    <div id="HeadlineBeregnData"><h1>
+    <div id="beregn-data-header"><h1>
         Se hvor meget du kan spare!
     </h1>
     </div>
@@ -28,10 +28,9 @@
     </tr>
 
     </thead>
-
-    <body>
+    <tbody>
     <tr>
-       <td th:text="${firmaData.firstName}"></td>
+        <td th:text="${firmaData.firstName}"></td>
         <td th:text="${firmaData.lastName}"></td>
         <td th:text="${firmaData.companyName}"></td>
         <td th:text="${firmaData.product}"></td>
@@ -42,11 +41,11 @@
         <td th:text="${(firmaData.productPrice*firmaData.productLeftOvers)/100*365}"></td>
 
     </tr>
-    </body>
+    </tbody>
 
 </table>
 
-<div id="TextBeregnData">
+<div id="text-beregn-data">
     Selv en lille del af den mad der bliver smidt ud kan betyde en hel del for pengepungen
     <br>
     <br>
