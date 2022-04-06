@@ -13,7 +13,7 @@ body {
     background-color: #05545b;
     color: burlywood;
     font-size: 1.5em;
-    padding: 11px 35px;
+    padding: 11px 45px;
     font-family: Lora, serif;
     font-weight: 700;
     line-height: 1.9;
@@ -23,7 +23,14 @@ body {
     height: 29px;
     position: absolute;
     left: 48%;
-    margin-top: -39.5%;
+    margin-top: -45.5%;
+}
+
+#to-do-list-container p {
+    font-size: 27px;
+    left: -25px;
+    top: -9px;
+    position: relative;
 }
 
 #stop-madspild-tekst-container h2 {
