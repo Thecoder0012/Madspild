@@ -51,6 +51,7 @@ a {
     color: white;
 }
 
+
 .dropdown:hover .dropdown-list {
     animation: dropdown-list-fade-in 200ms ease-in forwards;
     display: block;
