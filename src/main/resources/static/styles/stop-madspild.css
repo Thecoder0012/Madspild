@@ -19,16 +19,13 @@ body {
     line-height: 1.9;
 }
 #to-do-list-container {
-    display: -moz-box; /* Firefox*/
-    display: -webkit-box; /* Chrome */
-    display: -ms-flexbox; /*ie*/
     max-width: 1920px;
     min-width: 480px;
     width: 42%;
     height: auto;
     position: absolute;
     left: 48%;
-    margin-top: -45.5%;
+    margin-top: -62.9%;
 }
 
 #to-do-list-container p {
