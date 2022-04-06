@@ -21,9 +21,9 @@ body {
 #to-do-list-container {
     width: 42%;
     height: 29px;
-    position: relative;
+    position: absolute;
     left: 48%;
-    bottom: 509px;
+    margin-top: -22.1%;
 }
 
 #stop-madspild-tekst-container h2 {
