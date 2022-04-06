@@ -8,9 +8,12 @@
 <body>
 
 <table>
-<h1>
-    Se hvor meget du kan spare!
-</h1>
+
+    <div id="HeadlineBeregnData"><h1>
+        Se hvor meget du kan spare!
+    </h1>
+    </div>
+
     <thead>
     <tr>
         <th>Navn</th>
@@ -19,7 +22,9 @@
         <th>Vare</th>
         <th>Varepris</th>
         <th>Madspild i %</th>
-        <th>Besparelse i kr</th>
+        <th>Besparelse i kr pr. måltid</th>
+        <th>Månedlig besparelse i kr</th>
+        <th>Årlig besparelse i kr</th>
     </tr>
 
     </thead>
@@ -33,11 +38,20 @@
         <td th:text="${firmaData.productPrice}"></td>
         <td th:text="${firmaData.productLeftOvers}"></td>
         <td th:text="${(firmaData.productPrice*firmaData.productLeftOvers)/100}"></td>
+        <td th:text="${(firmaData.productPrice*firmaData.productLeftOvers)/100*30}"></td>
+        <td th:text="${(firmaData.productPrice*firmaData.productLeftOvers)/100*365}"></td>
 
     </tr>
     </body>
 
 </table>
+
+<div id="TextBeregnData">
+    Selv en lille del af den mad der bliver smidt ud kan betyde en hel del for pengepungen
+    <br>
+    <br>
+    <a href="stop-madspild">Tryk her for at se hvad du kan gøre</a>
+</div>
 
 </body>
 </html>
