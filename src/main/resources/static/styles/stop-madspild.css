@@ -12,19 +12,18 @@ body {
 #to-do-list-container ol {
     background-color: #05545b;
     color: burlywood;
-    font-size: 1.1em;
-    padding: 12px 35px;
+    font-size: 1.5em;
+    padding: 11px 35px;
     font-family: Lora, serif;
-    font-weight: 600;
-    line-height: 2;
-
+    font-weight: 700;
+    line-height: 1.9;
 }
 #to-do-list-container {
-    width: 45%;
-    height: 69%;
+    width: 42%;
+    height: 29px;
     position: relative;
-    left: 48em;
-    bottom: 35em;
+    left: 68em;
+    bottom: 509px;
 }
 
 #stop-madspild-tekst-container h2 {
