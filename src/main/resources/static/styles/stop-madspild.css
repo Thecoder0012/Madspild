@@ -1,15 +1,15 @@
-body{
+body {
     background: #c7dee4;
 }
 
 
-#stop-madspild-tekst-container{
+#stop-madspild-tekst-container {
     width: 60%;
     height: 60%;
-    margin:5% 0 0 2%;
+    margin: 5% 0 0 2%;
 }
 
-#stop-madspild-tekst-container ol{
+#stop-madspild-tekst-container ol {
     background-color: bisque;
     padding: 12px 30px;
     font-family: Helvetica Neue;
@@ -18,7 +18,7 @@ body{
 
 }
 
-#stop-madspild-tekst-container h2{
+#stop-madspild-tekst-container h2 {
     background-color: wheat;
     color: darkgreen;
     font-weight: 700;
@@ -28,7 +28,7 @@ body{
     padding: 10px 20px;
 }
 
-#stop-madspild-tekst-container p{
+#stop-madspild-tekst-container p {
     font-weight: 700;
     font-family: Helvetica Neue;
     font-size: 1.5em;

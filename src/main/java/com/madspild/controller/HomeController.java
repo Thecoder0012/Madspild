@@ -20,13 +20,13 @@ public class HomeController {
         return "home/what_is_madspild";
     }
 
-    @RequestMapping(path = "/statistik",method = RequestMethod.GET)
-    public String getStatistics(){
+    @RequestMapping(path = "/statistik", method = RequestMethod.GET)
+    public String getStatistics() {
         return "home/statistics";
     }
 
-    @RequestMapping(path = "/stop-madspild",method = RequestMethod.GET)
-    public String getStopMadspild(){
+    @RequestMapping(path = "/stop-madspild", method = RequestMethod.GET)
+    public String getStopMadspild() {
         return "home/stop_madspild";
     }
 
@@ -55,8 +55,8 @@ public class HomeController {
         return "home/beregn_madspild";
     }
 
-    @RequestMapping(path = "/madspild-data",method = RequestMethod.POST)
-    public String personData(@ModelAttribute Firma firma, Model model){
+    @RequestMapping(path = "/madspild-data", method = RequestMethod.POST)
+    public String personData(@ModelAttribute Firma firma, Model model) {
         model.addAttribute("firmaData", firma);
         return "home/beregn_data";
     }

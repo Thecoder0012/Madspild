@@ -2,7 +2,7 @@ body {
     background-color: #c7dee4;;
 }
 
-#om-os-container{
+#om-os-container {
     margin: 2% 0 10% 0.5%;
     width: 100%;
     height: 100%;
@@ -11,21 +11,24 @@ body {
     border-radius: 20px;
 
 }
-#om-os-container p{
-    font-family: Open Sans,sans-serif;
+
+#om-os-container p {
+    font-family: Open Sans, sans-serif;
     font-weight: 200;
     line-height: 2.0rem;
     padding: 30px 10px;
     font-size: 1.4em;
 }
-#om-os-container h2{
-    font-family: Lora,serif;
+
+#om-os-container h2 {
+    font-family: Lora, serif;
     font-weight: 400;
     font-size: 3.5em;
     line-height: 3.0rem;
     padding: 10px 10px;
 }
-#om-os-container hr{
+
+#om-os-container hr {
     width: 100%;
     height: 5%;
     border: 1px solid black;

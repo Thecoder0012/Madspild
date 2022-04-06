@@ -11,6 +11,7 @@
 header li {
     list-style: none;
 }
+
 .nav-bar li {
     list-style: none;
 }
@@ -87,7 +88,7 @@ a {
 .nav-bar #about-us-active,
 .nav-bar #help-active,
 .nav-bar #contact-active,
-.nav-bar #beregn-madspil-active{
+.nav-bar #beregn-madspil-active {
     background: #022a32;
     border-radius: 5px;
     color: white;
@@ -97,7 +98,8 @@ a {
 #udviklere-logo img {
     display: block;
     position: relative;
-    left: 55em;
+    left: 53em;
+    top: 3px;
     width: 60px;
     height: 50px;
     border-radius: 30px;
@@ -130,7 +132,7 @@ a {
     display: flex;
     justify-content: center;
     color: #05545b;
-    font-family:cursive;
+    font-family: cursive;
     font-size: 40px;
     font-weight: 500;
 }
@@ -149,11 +151,11 @@ a {
     justify-content: center;
 }
 
-.footer-container{
+.footer-container {
     position: absolute;
     right: 0;
     left: 0;
-    height:50px;
+    height: 50px;
     padding: 1rem;
     background-color: #efefef;
     text-align: center;

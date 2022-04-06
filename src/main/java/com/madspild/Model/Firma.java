@@ -9,7 +9,7 @@ public class Firma {
     private int productPrice;
     private double productLeftOvers;
 
-    public Firma(String firstName, String lastName, String companyName, String product, int productPrice, double productLeftOvers){
+    public Firma(String firstName, String lastName, String companyName, String product, int productPrice, double productLeftOvers) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.companyName = companyName;

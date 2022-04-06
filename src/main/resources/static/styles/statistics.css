@@ -1,16 +1,16 @@
-body{
+body {
     background: #c7dee4;
 }
 
 
-#madspild-statistik-tekst-container{
+#madspild-statistik-tekst-container {
     width: 60%;
     height: 60%;
-    margin:5% 0 0 2%;
+    margin: 5% 0 0 2%;
 
 }
 
-#madspild-statistik-tekst-container h2{
+#madspild-statistik-tekst-container h2 {
     background-color: wheat;
     color: darkgreen;
     font-weight: 700;
@@ -22,8 +22,7 @@ body{
 }
 
 
-
-#madspild-statistik-tekst-container p{
+#madspild-statistik-tekst-container p {
     font-weight: 700;
     font-family: Helvetica Neue;
     font-size: 1.5em;

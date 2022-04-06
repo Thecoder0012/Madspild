@@ -2,7 +2,7 @@ body {
     background-color: #00bcb4;
 }
 
-#logo-git-style img{
+#logo-git-style img {
     border-radius: 6em;
     height: 150px;
     left: 0.9em;
@@ -10,7 +10,7 @@ body {
     top: 14em;
 }
 
-#my-logo img{
+#my-logo img {
     border-radius: 2em;
     height: 150px;
     left: 3em;
@@ -19,14 +19,14 @@ body {
     width: 150px;
 }
 
-#info-names{
+#info-names {
     font-family: cursive;
     font-size: 2em;
     left: 11em;
     position: fixed;
 }
 
-#git-reference{
+#git-reference {
     font-size: 2em;
     font-family: serif;
     left: 11em;
