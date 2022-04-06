@@ -62,3 +62,18 @@ hr {
     text-align: center;
     width: 100%;
 }
+.help-text{
+    font-family: Lora, serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    padding: 10px 10px;
+    margin: 0% 0 2% 0;
+    height: 0%;
+    background: #c7dee4;
+    color: #05545b;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+
+}
