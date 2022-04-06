@@ -13,14 +13,19 @@ body {
     background-color: #05545b;
     color: burlywood;
     font-size: 1.5em;
-    padding: 11px 45px;
+    padding: 0.68% 10.75%;
     font-family: Lora, serif;
     font-weight: 700;
     line-height: 1.9;
 }
 #to-do-list-container {
+    display: -moz-box; /* Firefox*/
+    display: -webkit-box; /* Chrome */
+    display: -ms-flexbox; /*ie*/
+    max-width: 1920px;
+    min-width: 480px;
     width: 42%;
-    height: 29px;
+    height: auto;
     position: absolute;
     left: 48%;
     margin-top: -45.5%;
