@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Madspild</title>
     <link href="/styles/index.css?v=<?= filemtime('/styles/index.css') ?>" rel="stylesheet">
-    <link rel="stylesheet" href="/styles/madspild.css">
-    <link rel="icon" type="image/ico" href="/icons/favicon.png">
+    <link href="/styles/madspild.css" rel="stylesheet">
+    <link href="/icons/favicon.png" rel="icon" type="image/ico">
 
 
 </head>
@@ -16,9 +16,10 @@
     <nav>
         <ul class="nav-bar">
             <li><a class="nav-heading" href="startside">Hjem</a></li>
-            <li class="dropdown"><a class="nav-heading" id="madspild-active" >Madspild</a>
+            <li class="dropdown"><a class="nav-heading" id="madspild-active">Madspild</a>
                 <ul class="dropdown-list">
-                    <li><a class="dropdown-item" id="hvad-er-madspild-active" href="hvad-er-madspild">Hvad er madspild?</a></li>
+                    <li><a class="dropdown-item" href="hvad-er-madspild" id="hvad-er-madspild-active">Hvad er
+                        madspild?</a></li>
                     <li><a class="dropdown-item" href="statistik">Statistik</a></li>
                     <li><a class="dropdown-item" href="stop-madspild">Stop madspild</a></li>
                     <li><a class="dropdown-item" href="beregn-firma-madspild">Beregn din madspild</a></li>
@@ -40,14 +41,15 @@
         <br>Det sker også ofte, at man kommer til at opbevare madvarer forkert
         og derfor er blevet muggent, råddent, for tørt og lignende.
         Hvis der ikke er angivet tip om opbevaring på madvarer, man køber, så
-        anbefales det, at man spørger i butikken.  <br> </p>
+        anbefales det, at man spørger i butikken. <br></p>
 </div>
 
 <div id="video-container">
-    <iframe class="madspild-video" width="560" height="315" src="https://www.youtube.com/embed/6RlxySFrkIM"
-            title="YouTube video player" frameborder="0" allow="accelerometer;
-            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+    <iframe allow="accelerometer;
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+            class="madspild-video" frameborder="0"
+            height="315" src="https://www.youtube.com/embed/6RlxySFrkIM" title="YouTube video player"
+            width="560"></iframe>
 </div>
 
 <div id="madspild-video-caption">
@@ -60,7 +62,7 @@
     <div class="footer-container">
         <p> Copyright @2022 | Designed by</p>
         <a href="logo">
-            <img src="/images/MY-logo.jpg" alt="Side logo">
+            <img alt="Side logo" src="/images/MY-logo.jpg">
         </a>
     </div>
 

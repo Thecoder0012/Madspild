@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Hjem</title>
     <link href="/styles/index.css?v=<?= filemtime('/styles/index.css') ?>" rel="stylesheet">
-    <link rel="icon" type="image/ico" href="/icons/favi.png">
+    <link href="/icons/favi.png" rel="icon" type="image/ico">
 
 </head>
 
@@ -14,7 +14,7 @@
 <header>
     <nav>
         <ul class="nav-bar">
-            <li><a class="nav-heading" id="home-active" href="startside">Hjem</a></li>
+            <li><a class="nav-heading" href="startside" id="home-active">Hjem</a></li>
             <li class="dropdown"><a class="nav-heading">Madspild</a>
                 <ul class="dropdown-list">
                     <li><a class="dropdown-item" href="hvad-er-madspild">Hvad er madspild?</a></li>
@@ -35,7 +35,7 @@
 
 </div>
 <div id="startside-billede">
-    <img src="/images/home-baggrund.jpg" alt="Home baggrund">
+    <img alt="Home baggrund" src="/images/home-baggrund.jpg">
 </div>
 
 <div id="tekst-container">
@@ -49,9 +49,9 @@
 
 <footer>
     <div class="footer-container">
-       <p> Copyright @2022 | Designed by</p>
+        <p> Copyright @2022 | Designed by</p>
         <a href="logo">
-            <img src="/images/MY-logo.jpg" alt="Side logo">
+            <img alt="Side logo" src="/images/MY-logo.jpg">
         </a>
     </div>
 
