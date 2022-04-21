@@ -17,7 +17,7 @@ Clone my project with this link below:
 ## Tech Stack
 
 **Client:** Html, CSS JavaScript, Thymeleaf
-**Server:** Java, Thymeleaf
+<br> **Server:** Java, Thymeleaf
 
 ## Screenshot from website
 <img width="1440" alt="madspild" src="https://user-images.githubusercontent.com/92215742/163459508-fa7803c4-e76c-46a8-8f92-64fe3a492227.png">
